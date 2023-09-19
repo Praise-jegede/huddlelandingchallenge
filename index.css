@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem;
+}
+header button{
+    border: 1.8px solid hsl(321, 100%, 78%);
+    background-color: transparent;
+    width: 100px;
+    border-radius: 15rem;
+    color: hsl(321, 100%, 78%);
+}
+.hero-section{
+    margin: auto;
+    width: 60%;
+    padding: 2.5rem;
+    text-align: center;
+}
+ .hero-section .hero-text p{
+    width: 65%;
+    margin: auto;
+    margin-top: 1rem;
+    line-height: 1.3rem;
+    text-align: center;
+}
+.hero-section button{
+    margin-top: 1.5rem;
+    width: 250px;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: none;
+    background-color:  hwb(322 32% 0%);
+    color:white ;
+}
+.hero-section button:hover{
+    background-color:hsl(324, 88%, 81%) ;
+    cursor: pointer;
+}
+.hero-img{
+    width: 100%;
+    margin-top: 3rem;
+}
+.hero-img img{
+    width: 100%;
+}
+.communities-message {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 1rem 4rem 1rem 4rem;
+}
+.communities-message b{
+   font-size: 3rem;
+   font-weight: 600;
+}
+.communities-message .p{
+    opacity: 0.7;
+}
+.Grow-together,.flowing-conversations, .your-users{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 20%;
+    height: 80%;
+}
+.grow{
+    /* overflow: hidden; */
+    position: relative;
+    background-color: rgba(217, 237, 255, 0.294);
+    height: 60vh;
+    margin: 10rem 0;
+}
+.Grow-together{
+    position: absolute;
+    top: -230px;
+}
+#first{
+    position: absolute;
+    top: -120px;
+}
+#second{
+    position: absolute;
+    top: 350px;
+}
+#second, #first{
+}
+#second img, #first img{
+    width: 100%;
+}
+.grow-text,.flowing-image, .flow-text, .users-text{
+    margin: auto;
+    width: 35%;
+    line-height: 1.3rem;
+}
+.flow-text{
+    width: 40%;
+}
+.grow-text p{
+    margin-top: 1rem;
+}
+.grow-image,.flow-text, .users-image {
+    width: 35%;
+    padding-right: 2rem;
+}
+.Grow-together img,.flowing-image img, .users-image img{
+    width: 100%;
+}
+.your img{
+    width: 100%;
+}
+.your-users{
+    position: relative;
+    background-color:rgba(217, 237, 255, 0.294) ;
+}
+#topbg2{
+    position: absolute;
+    top: -135px;
+}
+#bottombg2{
+    position: absolute;
+    top: 310px;
+}
+.build-community{
+    text-align: center;
+    margin: 20%;
+    line-height: 4rem;
+}
+.build-community h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.build-community button{
+    width: 230px;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: none;
+    background-color:hsl(322, 100%, 66%) ;
+    color: white;
+}
+.build-community button:hover{
+    cursor: pointer;
+    background-color: hsl(321, 100%, 78%) ;
+}
+.icons{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 1rem;
+}
+.footer-img img{
+    position: relative;
+    top: 10px;
+   width: 100%;
+}
+.footer{
+    background-color: hsla(201, 71%, 8%, 0.952);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   gap: 2rem;
+   line-height: 1.3rem;
+   color: rgba(255, 255, 255, 0.665);
+}
+.huddle, .newsletter{
+    width: 30%;
+}
+.huddle{
+    margin: 2rem 0rem;
+    line-height:1.5rem ;    
+}
+.footer-logo{
+    display: flex;
+    gap: 1rem;
+}
+.footer-logo h2{
+    color: white;
+    font-size: 50px;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+form{
+    width: 100px;
+    padding: 5px;
+    margin-top: 2rem;
+}
+form{
+    height: 1rem;
+}
+.form button{
+    width: 100px;
+    padding: 5px;
+    margin-top: 2rem;
+    background-color: hsl(322, 100%, 66%) ;
+    color:white ;
+    border: none;
+    border-radius: 3px;
+}
+.form button:hover{
+    cursor: pointer;
+    background-color: hsl(321, 100%, 78%);
+}
+.newsletter h4{
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+}
+@media(max-width: 400px){
+    header img{
+      width:150px ;
+    }
+   header{
+    padding: 2rem 1rem;
+   }
+   .hero-section h2{
+    font-size: 1.8rem;
+   }
+   .hero-section{
+    width: 80%;
+    margin:4rem auto;
+    padding: 0;
+   }
+   .hero-section .hero-text p{
+    width: 95%;
+    font-size: 18px;
+   }
+  .hero-section button{
+    width: 200px;
+  }
+  .hero-img img {
+    margin: 2rem;
+  }
+  .communities-message{
+    display: block;
+  }
+  .communities-message b{
+    font-size: 80px;
+  }
+  .communities-formed,.message-sent{
+    margin: 100px 0;
+  }
+}
